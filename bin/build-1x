@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 
 require 'image_tools'
+require "image_tools/build_one_x"
 
 BuildOneX.build ARGV  

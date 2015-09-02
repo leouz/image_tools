@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "bin"
-  spec.executables   = ["build-1x", "loseless"]
+  spec.executables   = ["build-1x"]
   spec.require_paths = ["lib"]
 
   spec.add_dependency "paint"
